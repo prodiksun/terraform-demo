@@ -7,7 +7,7 @@ variable "memoryMB" { default = 1024*2 }
 variable "cpu" { default = 2 }
 # instance the provider
 provider "libvirt" {
-uri = "qemu+ssh://root@192.168.88.38/system"
+uri = "qemu:///system"
 }
 # fetch the latest ubuntu release image from their mirrors.
 #when using cloud image- now allowed to increase disk-size
