@@ -7,5 +7,8 @@ terraform {
 }
 
 provider "libvirt" {
-  # Configuration options
+  ## Configuration options
+  #uri = "qemu:///system"
+  alias = "libvirt"
+  uri   = "qemu+ssh://root@192.168.88.38/system"
 }
