@@ -13,7 +13,7 @@ terraform {
     # see https://github.com/dmacvicar/terraform-provider-libvirt
     libvirt = {
       source = "dmacvicar/libvirt"
-      version = "0.6.14"
+      version = "0.6."
     }
   }
 }
